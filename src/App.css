@@ -1,0 +1,38 @@
+/* MAIN CONTEINER */
+
+.Conteiner {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    background: url(../src/assets/bg-main-desktop.png); 
+    background-position: center -250px;
+    background-repeat: no-repeat;
+}
+
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+@media only screen and (min-width: 480px) and (max-width: 999px) {
+    .Conteiner {
+        background: url(../src/assets/bg-main-tablet.png);
+        background-position: center -250px; 
+        background-repeat: no-repeat;    
+    }
+}
+
+
+/****************/
+/**** MOBILE ****/
+/****************/
+
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+    .Conteiner {
+        background: url(../src/assets/bg-main-mobile.png);
+        background-position: left -200px;
+        background-repeat: no-repeat;
+    }
+}

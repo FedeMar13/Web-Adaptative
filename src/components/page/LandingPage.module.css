@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Outfit:wght@100&display=swap');
+
+/****************/
+/****** PC ******/
+/****************/
+
+/**** HEADER ****/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+    /* background-color: black; */
+} 
+
+.Equializer {
+    width: 100%;
+    max-width: 62.5em;
+    margin: 0 auto 8em;
+    
+
+    /* background-color: white; */
+}
+
+.Symbol {
+    width: 9.130625em;
+    height: 2em;
+    margin: 2em 0 4em 0;
+}
+
+h1 {
+    font-family: IBM Plex Sans;
+    font-size: 5.5em;
+}
+
+.TextOne {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 2.125em;
+    margin-top: 1em;
+}
+
+.ConteinerImage {
+    width: 100%;
+    max-width: 15.625em;
+
+    
+    /* background-color: aqua; */
+}
+
+ .Image {
+    width: 100%;
+} 
+
+
+
+/**** SECTION ****/
+
+.Conteiner {
+    width: 100%;
+    max-width: 68.75em;
+    height: 37.5em;
+    margin: 15em auto;
+    border-radius: 1.5625em;
+    background-color: #191826;
+    
+     
+  display: flex;
+  flex-direction: row;
+
+  position: relative;
+}
+
+.Phone {
+    width: 100%;
+    max-width: 19.5em;
+    /* background-color: darkmagenta; */
+    position: absolute;
+    bottom: 12em;
+    left:  6.375em;
+    z-index: 1;
+}
+
+.Circulos {
+    width: 100%;
+    max-width: 19.5em;
+    /* background-color: deeppink; */
+    position: absolute;
+    left: 21em;
+    bottom: 10em;
+}
+
+.Card {
+    width: 100%;
+    max-width: 27.5625em;
+    height: 38.5em;
+    background-color: #FA7453;
+    position: absolute;
+    right: 5.9375em;
+    top: 5.625em;
+    border-radius: 0.75em;
+}
+
+
+.TextTwo {
+    max-width:  20.8125em;
+    margin: 3em auto 0;
+   /* background-color: red; */
+
+}
+
+
+h2 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #FCFAF9; 
+}
+
+
+.Info {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 2.125em;
+    margin-top: 1.9375em;
+    color: #FCFAF9;
+}
+
+.TextThree {
+    display: flex;
+    max-width: 10.3125em;
+    margin: 1.9375em auto 0 3.375em;
+}
+
+.Four {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.0625em;
+    color: #FCFAF9;
+}
+
+.Month {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;  
+    font-size: 1.25em;
+    color: #FCFAF9;
+    margin: auto 0 auto 0.5em;
+}
+
+
+.Ios {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    max-width: 20.8125em;
+    height: 3.8125em;
+    margin: 0.96875em auto;
+    border-radius: 0.75em;
+    background-color: #191826; 
+}
+
+.Ios:hover {
+    background-color: #66E2DC;
+}
+
+.AppleIcon {
+    margin-right: 0.4875em;
+}
+
+.Android {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    max-width: 20.8125em;
+    height: 3.8125em;
+    margin: 0.96875em auto;
+    border-radius: 0.75em;
+    background-color: #FCFAF9;
+    color: #191826; 
+}
+
+.Android:hover {
+    background-color: #FFB964;
+}
+
+.Icon {
+    margin-right: 0.4875em;
+}
+
+a {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FCFAF9;
+}
+
+
+
+/*** FOOTER ***/
+
+footer {
+    width: 100%;
+    
+    display: flex;
+    /* background-color: black; */
+}
+
+.Author {
+    width: 100%;
+    max-width: 68.75em;
+
+    margin: 0 auto 5.625em auto ;
+
+    /* background-color: gold; */
+
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.LogoType {
+    width: 9.125em;
+    height: 2em;
+}
+
+
+.TextFour {
+    width: 22.875em;
+    margin: 0 12.5em 0 0;
+    /* background-color: red; */
+}
+
+.Social {
+    max-width: 6.25em;
+    /* background-color: aqua; */
+    margin: 1.6875em 0 1.6875em 0;
+  
+}
+
+.IconFacebook {
+    width: 1.25em;
+    height: 1.25em;
+}
+
+.IconFacebook:hover > svg > path{
+    fill: #FFB964;
+}
+
+.IconInstagram {
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0 1.25em;
+}
+
+.IconTwitter {
+    width: 1.25em;
+    height: 1.25em;
+}
+
+
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+@media only screen and (min-width: 480px) and (max-width: 999px) {
+
+    /**** HEADER ****/
+
+    .Equializer {
+     max-width: 32.5em;
+     margin: 0 auto 8em auto; 
+     /* background-color: blue; */
+    }
+
+    .Symbol {
+        margin: 2.5em 0 4em 0;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .TextOne {
+        font-size: 1.125em;
+    }
+
+    .Imagen {
+        max-width: 16.666875em;
+    }
+
+    /**** SECTION ****/
+
+
+    .Conteiner{
+        max-width: 43.5em;
+    }
+
+    .Phone {
+        left: 4em;
+        max-width: 16.875em;
+    }
+    
+    .Circulos {
+        max-width: 17.5em;
+        left: 14.3125em;
+        bottom: 13.1875em;
+    }
+
+    .Card{
+        max-width: 24.9375em;
+        height: 34.125em;
+        top: 9.375em;
+        right: 3.625em;
+        z-index: 1;
+    }
+
+    .TextTwo {
+        margin: 2em auto 0;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .Info {
+        margin-top: 0.875em;
+    }
+
+    .TextThree {
+        margin: 1.125em auto 0 3.375em;
+    }
+
+    .Ios {
+        max-width: 18.5em;
+        margin: auto;
+    }
+
+    .Android {
+        max-width: 18.5em;
+    }
+
+    /*** FOOTER ***/
+
+    .Author{
+        max-width:  43.3125em;
+
+        display: inline-block;
+
+        margin: 0 auto 5.3125em;
+        /* background-color: blue; */
+    }
+
+    .LogoType {
+        display: block;
+    }
+
+    .TextFour {
+        height: 5.3125em;
+        margin-top: 1em;
+        /* background-color: red; */
+        display: inline-block;
+    }
+
+    .Social {
+        display: inline-block;
+        /* background-color: aqua; */
+        float: right;
+        margin-top: 2.5em;
+    }
+}
+
+
+
+
+/****************/
+/**** MOBILE ****/
+/****************/
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    /**** HEADER ****/
+
+    .Equializer {
+        max-width: 20.4375em;
+        margin: 2.4375em 0 0 1.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .TextOne {
+        font-size: 1em;
+        line-height: 1.625em;
+    }
+
+    .ConteinerImage {
+        display: none;
+    }
+
+    .Imagen {
+        display: none;
+    }
+
+    /**** SECTION ****/
+
+    .Conteiner {
+        height: 37.5em;
+        border-radius: 1em;
+    }
+
+    .Phone {
+        max-width: 13.0625em;
+        top: -6.125em;
+        right:  5.3125em;
+        bottom: 16.75em;
+        
+    }
+    
+    .Circulos {
+        top: 0;
+        left: 4.375em;
+        height: 26.25em;
+        max-width: 17.5em;
+    }
+
+    .Card {
+        top: 23.75em;
+        left: 0;
+        height: 34.125em;
+        max-width: none;
+    }
+
+    .Info {
+        margin-top: 0.75em;
+    }
+
+    .TextThree {
+        margin: 0 auto 0 3.375em;
+    }
+
+    .Ios {
+        max-width: 18.5em;
+        margin: auto;
+    }
+
+    .Android {
+        max-width: 18.5em;
+    }
+
+    /*** FOOTER ***/
+
+    footer {
+        padding: 1em;
+    }
+
+    .Author {
+        display: flex;
+        flex-direction: column;
+
+        margin: 10em 0 2em 0;
+        /* max-width: 20.4375em; */
+        /* height:  21.875em; */
+
+        /* background-color: red; */
+    }
+
+    .LogoType {
+        margin: 0 0 2em 0;
+    }
+
+    .Social {
+        margin-top: 4em;
+    }
+}
